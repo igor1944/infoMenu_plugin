@@ -1,0 +1,17 @@
+# Сборка
+target/
+*.jar
+!.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ IDEA / Eclipse
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+
+# Операционная система
+.DS_Store
+Thumbs.db

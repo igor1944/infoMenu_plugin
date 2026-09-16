@@ -1,6 +1,21 @@
 name: InfoMenu
-version: '${version}'
-
+version: '${project.version}'
 main: com.infoMenu.InfoMenu
 api-version: '1.18'
 load: POSTWORLD
+description: Показывает здоровье игрока, на которого вы смотрите, и нанесённый ему урон.
+authors: [igor1944]
+
+commands:
+  infomenu:
+    description: Открывает меню настроек InfoMenu
+    usage: /infomenu [toggle|health <игрок>|reset|reload]
+    aliases: [im, healthmenu]
+
+permissions:
+  infomenu.use:
+    description: Доступ к меню настроек и к показу здоровья
+    default: true
+  infomenu.admin:
+    description: Перезагрузка конфигурации плагина
+    default: op
