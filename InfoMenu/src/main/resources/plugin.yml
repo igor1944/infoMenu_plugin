@@ -1,0 +1,6 @@
+name: InfoMenu
+version: '${version}'
+
+main: com.infoMenu.InfoMenu
+api-version: '1.18'
+load: POSTWORLD
