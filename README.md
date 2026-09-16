@@ -1,4 +1,5 @@
 # infoMenu_plugin
+[сыллка на скачевания](https://github.com/igor1944/infoMenu_plugin/releases)
 # InfoMenu
 
 Плагин для **Paper 1.18.2**, который показывает здоровье игрока (или моба), на которого вы
